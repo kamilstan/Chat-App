@@ -1,0 +1,20 @@
+.MessageForm {
+    display: flex;
+    flex-direction: row;
+    background-color: #5587ba;
+    color: white;
+}
+
+.MessageInput {
+    flex: 1;
+    padding: 20px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    background-color: #5587ba;
+    color: white;
+    box-shadow: 1px 2px;
+}
+
+.MessageInput::placeholder {
+	color:#ccd4dd;
+}

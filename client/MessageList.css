@@ -1,0 +1,29 @@
+.MessageList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 72vw;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.Message {
+	display: flex;
+	flex-direction: column;
+	background-color: #adb3bb;
+	margin-bottom: 10px;
+	box-shadow: 1px 2px;
+	width: 50%;
+	padding: 5px;
+	border-radius: 5px;
+}
+.Message strong {
+	color: white;
+	background-color: #5587ba;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.Message span {
+	color: #343638;
+}
