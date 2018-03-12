@@ -1,21 +1,31 @@
 .MessageList {
+
     flex: 1;
     width: 75vw;
     padding: 20px;
     box-sizing: border-box;
     overflow: auto;
+    transform: rotate(180deg);
+    direction: rtl;
+    height: 100vh;
+    margin-bottom: 50px;
+    
+
 }
 .Message {
-	display: flex;
-	flex-direction: column;
+	
 	background-color: #adb3bb;
 	margin-bottom: 10px;
 	box-shadow: 1px 2px;
 	width: 50%;
 	padding: 5px;
 	border-radius: 5px;
+	transform: rotate(180deg);
+	direction: ltr;
+	min-height: 50px;
 }
 .Message strong {
+	display: block;
 	color: white;
 	background-color: #5587ba;
 	border-radius: 5px;
@@ -23,5 +33,8 @@
 	text-align: center;
 }
 .Message span {
+	display: block;
 	color: #343638;
 }
+
+
